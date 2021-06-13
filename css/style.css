@@ -10,13 +10,12 @@
 
 
 .animacao{
-    background: linear-gradient(to right#FF339D,#0E1F40);
     border: 2px solid rgba(0, 0, 0, 0.54);
     border-radius: 10px;
     box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.54)
 }
 body{
-     background: linear-gradient(to right,#FF339D,#0E1F40);
+     background: linear-gradient(to right,#6FC3F7,#C2FDFF);
      display: flex;
      justify-content: center;
      align-items: center;
