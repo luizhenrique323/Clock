@@ -3,10 +3,6 @@
     font-family: Arial, Helvetica, sans-serif;
     
 }
-@keyframes anim1{
-    from{background-color: #8778C7;}
-    to{background-color:black ;}
-}
 
 
 .animacao{
@@ -21,8 +17,6 @@ body{
      align-items: center;
      min-height: 100vh;
      overflow: hidden;
-     animation-name: anim1;
-    animation-iteration-count: infinite;
 
 }
 .clock{
@@ -95,4 +89,26 @@ body{
     width: 12px;
     height: 30%;
     background-color: black;
+}
+/*Responsividade*/
+@media (max-width: 690px) {
+    .clock{
+        width: 350px;
+        height: 350px;
+        background-color: whitesmoke;
+        border-radius: 50%;
+        border: 3px solid black;
+        position: relative;
+    }
+   
+/*Background responsivo*/
+    body{
+        background: linear-gradient(to right,#6FC3F7,#C2FDFF);
+        display: flex ;
+        justify-content: center;
+        align-items: center;
+        min-height: 75vh;
+        overflow: hidden;
+   
+   }
 }
